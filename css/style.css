@@ -1,0 +1,88 @@
+/* font Heading */
+@font-face {
+  font-family: "dm_serif_displayitalic";
+  src: url("dmserifdisplay-italic-webfont.woff2") format("woff2"), url("dmserifdisplay-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "dm_serif_displayregular";
+  src: url("dmserifdisplay-regular-webfont.woff2") format("woff2"), url("dmserifdisplay-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*font body*/
+@font-face {
+  font-family: "karlaitalic";
+  src: url("karla-italic-variablefont_wght-webfont.woff2") format("woff2"), url("karla-italic-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "karlaregular";
+  src: url("karla-variablefont_wght-webfont.woff2") format("woff2"), url("karla-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+/* COLORS */
+/*pirmary*/
+/*Neutral*/
+/* DEVICES */
+.social_icons {
+  align-self: center;
+}
+
+/* MAIN */
+body {
+  height: 100vh;
+}
+@media screen and (max-width: 375px) {
+  body {
+    min-height: 100vh;
+  }
+}
+
+/* NavBar */
+#navbarContent, .hearder_footer {
+  display: flex;
+  justify-content: flex-end;
+}
+#navbarContent .brand, .hearder_footer .brand {
+  margin-right: 50%;
+}
+#navbarContent .brand_footer, .hearder_footer .brand_footer {
+  margin-right: 80%;
+}
+
+/*bordure temporaire*/
+.hearder_footer {
+  border: 2px solid #FF0000;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  border: solid 2px black;
+}
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+.navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */

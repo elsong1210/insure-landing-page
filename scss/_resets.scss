@@ -1,0 +1,36 @@
+
+
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+/* COLORS */
+	/*pirmary*/
+$Dark_Violet: hsl(256, 26%, 20%);
+$Grayish_Blue: hsl(216, 30%, 68%);
+
+	/*Neutral*/
+$Very_Dark_Violet: hsl(270, 9%, 17%);
+$Dark_Grayish_Violet: hsl(273, 4%, 51%);
+$Very_Light_Gray: hsl(0, 0%, 98%);
+
+/* DEVICES */
+
+@mixin wide-screen {
+    @media screen and (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: 376px) and (max-width: 1439px) {
+        @content;
+    }
+}

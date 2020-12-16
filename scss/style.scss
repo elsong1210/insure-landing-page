@@ -1,0 +1,63 @@
+@import "fonts", "resets", "images";
+
+
+
+/* MAIN */
+
+body{
+	height: 100vh;
+
+	@include mobile {
+		min-height: 100vh;
+	}
+}
+
+
+/* NavBar */
+
+ @mixin border($color){
+ 	border: 2px solid $color;
+ }
+
+ #navbarContent,.hearder_footer{
+
+ 	display: flex;
+ 	justify-content: flex-end;
+  	.brand{
+ 		margin-right: 50%;
+ 	}
+ 	.brand_footer{
+ 		margin-right: 80%;
+ 	}
+
+ }
+
+/*bordure temporaire*/
+ .hearder_footer{
+ 	@include border(#FF0000);
+ }
+
+ .navbar-nav{
+ 	display: flex;
+ 	list-style-type: none;
+ 	border: solid 2px black;
+
+ 	.nav-item{
+ 		margin-right: 15px;
+ 		.nav-link{
+ 			text-decoration:none;
+ 		}
+ 	}
+ }
+
+.attribution 
+{ 
+	font-size: 11px; 
+	text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+ 
+
