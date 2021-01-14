@@ -1,0 +1,12 @@
+{
+  "name": "insure-landing-page-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"prefix": "postcss ./css/style.css --use autoprefixer -d ./css"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist":"last 4 versions"
+}

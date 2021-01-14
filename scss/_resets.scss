@@ -30,7 +30,7 @@ $Very_Light_Gray: hsl(0, 0%, 98%);
 }
 
 @mixin tablet {
-    @media screen and (min-width: 376px) and (max-width: 1439px) {
+    @media screen and (min-width: 376px) and (max-width: 1124px) {
         @content;
     }
 }
